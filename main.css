@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans",
+  sans-serif; 
+  font-size: 20px;
+  line-height: 1.5;
+  margin: auto;
+}
+
+nav {
+  position: sticky;
+}
+
+ul {
+  /* position: sticky; */
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(63, 72, 204);
+}
+
+#me {
+  height: 200px;
+  width: 200px;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+.portrait {
+  text-align: center;
+}
+
+.Intro {
+  margin-top: 2em;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 35px;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  padding: 8px 10%;
+}
+
+.i-am {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 75px;
+}
+
+.i-am > h3 {
+  color: rgb(63, 72, 204);
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.i-am > p {
+margin-top: 0px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.project > h3 {
+  font-size: 1.5em;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-snip {
+  width: 100%;
+  height: auto;
+  object-fit:cover;
+  border: 3px solid black;
+}
+
+.project-links {
+  height: 150px;
+}
+
+.demo-link-container, .repo-link-container {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.demo-link, .repo-link {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.repo-link {
+  background-color: #EEEEEE;
+  color: rgb(63, 72, 204);
+  border: 3px solid rgb(63, 72, 204);
+}
+
+.demo-link {
+  background-color: rgb(63, 72, 204);
+  color: white;
+  border: 3px solid rgb(63, 72, 204);
+}
+
+
+.demo-link:hover, .repo-link:hover {
+  font-size: 1.1em;
+  border-width: 4px;
+  border-radius: 28px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+
+
+.jQuery-icon {
+  width: 32px;
+  height: 32px;
+}
+
+#contact {
+  margin-top: 100px;
+}
+
+#contact > h2 {
+  margin-block-end: 0px;
+  text-align: center;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.contact-links a {
+  margin: 0px 20px;
+  color:  rgb(63, 72, 204);
+}
+
+.contact-links a:hover {
+  color: black;
+  font-size: 1.1em;
+  margin: 0px 18px;
+}
+
+@media (min-width: 1024px) {
+ 
+.project {
+  flex-direction: row-reverse;
+}
+
+.project-links {
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+}
+
+.project-snip-container, .project-info {
+  min-width: 50%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  align-items: center;
+}
+
+.project-snip-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-info {
+  text-align: center;
+}
+
+.project-info > p {
+  text-align: left;
+}
+
+
+
+}
