@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Open Sans",
+  font-family: "Muli",
   sans-serif; 
   font-size: 20px;
   line-height: 1.5;
@@ -59,10 +59,17 @@ li a:hover {
   margin-top: 35px;
 }
 
+.Intro > p {
+  font-size: 22px;
+  font-weight:bold;
+}
+
 h2 {
+  font-family: 'Philosopher';
   background-color: black;
   color: white;
   padding: 8px 10%;
+  transition:all 2s ease;
 }
 
 .i-am {
@@ -90,13 +97,14 @@ margin-top: 0px;
   margin-bottom: 75px;
 }
 
-.project > h3 {
-  font-size: 1.5em;
+.project h3 {
+  font-size: 1.3em;
 }
 
 .project-links {
   display: flex;
   flex-direction: column;
+  font-weight: bold;
 }
 
 .project-snip {
@@ -108,6 +116,10 @@ margin-top: 0px;
 
 .project-links {
   height: 150px;
+}
+
+.dev-technology-logos {
+  font-size: 0.8em;
 }
 
 .demo-link-container, .repo-link-container {
@@ -181,6 +193,11 @@ margin-top: 0px;
   color: black;
   font-size: 1.1em;
   margin: 0px 18px;
+}
+
+.purpleFlashOn h2 {
+  background-color: rgb(63, 72, 204);
+  transition:all 1s ease;
 }
 
 @media (min-width: 1024px) {
