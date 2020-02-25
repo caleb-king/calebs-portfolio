@@ -24,4 +24,4 @@ function setup() {
   document.getElementById('bio-nav').onclick = bioFlash;
 }
 
-window.onload = setup;
+setup();
