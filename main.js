@@ -15,7 +15,7 @@ function projectsFlash() {
 }
 
 function bioFlash() {
-  flash('bio');
+  flash('extended-bio');
 }
 
 function setup() {
