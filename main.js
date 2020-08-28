@@ -1,5 +1,5 @@
 function flash(id) {
-  var contact = document.getElementById(id);
+  const contact = document.getElementById(id);
   contact.classList.toggle('purpleFlashOn');
   setTimeout(() => {
     contact.classList.toggle('purpleFlashOn');
