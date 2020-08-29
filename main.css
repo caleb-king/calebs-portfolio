@@ -211,6 +211,15 @@ i {
   margin: 0px 18px;
 }
 
+.sr-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  }
+
 .purpleFlashOn h2 {
   background-color: rgb(63, 72, 204);
   transition:all 1s ease;
